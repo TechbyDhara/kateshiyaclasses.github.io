@@ -1,0 +1,353 @@
+
+/* --------------admin login css---------------------- */
+.admin-login-section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+background:#f1f1f1;
+}
+.admin-login-box{
+width:100%;
+max-width:420px;
+padding:35px;
+border-radius:10px;
+background:#f6b587;
+border:1px solid #d8c3ae;
+}
+.admin-login-title{
+text-align:center;
+margin-bottom:28px;
+}
+
+.admin-login-title h2{
+font-size:32px;
+font-weight:700;
+color:#222;
+margin-bottom:10px;
+}
+.admin-group{
+margin-bottom:18px;
+}
+
+.admin-group label{
+display:block;
+font-size:14px;
+font-weight:600;
+margin-bottom:7px;
+color:#333;
+}
+
+.admin-group input{
+width:100%;
+height:45px;
+padding:10px 14px;
+border:1px solid #c48958;
+border-radius:6px;
+font-size:14px;
+outline:none;
+background:#fff;
+}
+
+.admin-login-btn{
+width:100%;
+height:46px;
+border:none;
+border-radius:6px;
+background:#8b5e3c;
+color:#fff;
+font-size:15px;
+font-weight:600;
+cursor:pointer;
+}
+
+@media(max-width:576px){
+.admin-login-box{
+padding:28px 20px;
+}
+.admin-login-title h2{
+font-size:28px;
+}
+}
+/* -----------------dashbord css--------------- */
+.kc-dashboard{
+background:#f5f3ef;
+min-height:100vh;
+}
+
+.kc-sidebar{
+background:#714d31;
+padding:30px 20px;
+min-height:100vh;
+}
+
+.kc-logo{
+margin-bottom:40px;
+}
+
+.kc-logo h2{
+font-size:24px;
+font-weight:700;
+color:#fff;
+line-height:1.5;
+}
+
+.kc-menu{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.kc-menu a{
+text-decoration:none;
+padding:12px 14px;
+border-radius:6px;
+font-size:15px;
+font-weight:500;
+color:#fff;
+}
+
+.kc-menu a i{
+margin-right:10px;
+}
+
+.kc-main-content{
+padding:35px;
+}
+
+.kc-top-title{
+margin-bottom:30px;
+}
+
+.kc-top-title h2{
+font-size:34px;
+font-weight:700;
+color:#222;
+margin-bottom:8px;
+}
+
+.kc-top-title p{
+font-size:15px;
+color:#666;
+}
+.kc-dashboard-card{
+background:#fff;
+padding:30px;
+border-radius:3px;
+border:1px solid #dbc4ad;
+}
+
+.kc-card-icon i{
+font-size:22px;
+color:#823434;
+}
+
+.kc-dashboard-card h3{
+font-size:34px;
+font-weight:700;
+color:#222;
+margin-bottom:10px;
+}
+
+.kc-dashboard-card p{
+font-size:19px;
+color:#666;
+margin:0;
+}
+
+@media(max-width:991px){
+
+.kc-sidebar{
+min-height:auto;
+}
+.kc-main-content{
+padding:25px 18px;
+}
+.kc-top-title h2{
+font-size:28px;
+}
+}
+/* ---------------admission css-------------- */
+
+.kc-main-content{
+padding:35px;
+background:#ffffff;
+min-height:100vh;
+}
+
+.kc-page-title{
+margin-bottom:25px;
+}
+
+.kc-page-title h2{
+font-size:32px;
+font-weight:700;
+color:#222;
+margin-bottom:8px;
+}
+
+.kc-page-title p{
+font-size:14px;
+color:#666;
+}
+.kc-table-box{
+background:#fff;
+padding:20px;
+border-radius:1px;
+border:1px solid #dbc4ad;
+overflow-x:auto;
+}
+.kc-table{
+margin:0;
+}
+
+.kc-table thead{
+background:#8b5e3c;
+color:#fff;
+}
+
+.kc-table th{
+padding:14px;
+font-size:14px;
+font-weight:600;
+border:none;
+}
+
+.kc-table td{
+padding:14px;
+font-size:14px;
+vertical-align:middle;
+color:#333;
+}
+@media(max-width:576px){
+
+.kc-main-content{
+padding:20px 15px;
+}
+
+.kc-page-title h2{
+font-size:26px;
+}
+
+.kc-table th,
+.kc-table td{
+font-size:13px;
+padding:10px;
+}
+
+}
+/* ------------------edit and delete css---------------- */
+.edit-btn{
+display:inline-block;
+size:44px;
+line-height:36px;
+text-align:center;
+color:#65ab1a;
+border-radius:2px;
+text-decoration:none;
+
+}
+.delete-btn{
+display:inline-block;
+width:36px;
+height:36px;
+line-height:36px;
+text-align:center;
+color:#9b3c3c;
+text-decoration:none;
+}
+/* --------edit admission css------------------  */
+.kc-edit-section{
+padding:80px 15px;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.kc-edit-box{
+width:100%;
+max-width:650px;
+padding:35px;
+border-radius:10px;
+border:1px solid #dbc4ad;
+}
+
+.kc-edit-title{
+margin-bottom:25px;
+}
+
+.kc-edit-title h2{
+font-size:32px;
+font-weight:700;
+color:#222;
+margin-bottom:8px;
+}
+
+.kc-edit-title p{
+font-size:14px;
+color:#666;
+}
+.kc-edit-group{
+margin-bottom:18px;
+}
+
+.kc-edit-group label{
+display:block;
+font-size:14px;
+font-weight:600;
+margin-bottom:7px;
+color:#333;
+}
+
+.kc-edit-group input,
+.kc-edit-group textarea,
+.kc-edit-group select{
+width:100%;
+padding:12px 14px;
+border:1px solid #b88b67;
+border-radius:6px;
+font-size:14px;
+outline:none;
+background:#fff;
+}
+.kc-edit-group textarea{
+resize:none;
+}
+.kc-update-btn{
+width:100%;
+padding:13px;
+border:none;
+border-radius:6px;
+background:#8b5e3c;
+color:#fff;
+font-size:15px;
+font-weight:600;
+cursor:pointer;
+}
+
+@media(max-width:576px){
+.kc-edit-box{
+padding:25px 18px;
+}
+.kc-edit-title h2{
+font-size:26px;
+}
+
+}
+/* ---------back button------- */
+.kc-back-btn{
+align-items:center;
+padding:10px;
+background:#efe1e1;
+color:#000000;
+text-decoration:none;
+font-size:14px;
+font-weight:500;
+margin-bottom:20px;
+}
+
+.kc-back-btn i{
+font-size:13px;
+}
